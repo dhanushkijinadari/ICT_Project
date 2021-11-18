@@ -92,6 +92,92 @@ button{
     text-align: center;
     margin-bottom: 5px;
 }
+/*login form */
+.box1 {
+    position:relative;
+	margin-top: 70px;
+	padding: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background: #ffffff;
+    padding: 40px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+}
+.box1 h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: royalblue;
+    
+}
+
+.box1 input{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.box1 textarea{
+    height: 80px;
+    padding: 10px 0;
+
+}
+
+.box1 input,
+.box1 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: transparent;
+    border-bottom: 2px solid #999;
+}
+.box1 textarea{
+    margin-bottom: 20px;
+}
+.box1 input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: royalblue;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.box1 form div{
+    position: relative;
+
+}
+.box1 form div label{
+    position: absolute;
+    top:10px;
+    pointer-events: none;
+    left: 0;
+    color: #999;
+    transition: .5s;
+}
+
+.box1 input:focus ~label,
+.box1 textarea:focus ~label,
+.box1 input:valid ~label,
+.box1 textarea:valid ~label{
+    top: -12px;
+    left: 0;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.box input:focus,
+.box textarea:focus,
+.box input:valid,
+.box textarea:valid{
+    border-bottom: 2px solid navy;
+}
 
 /*add permission form */
 .box{
