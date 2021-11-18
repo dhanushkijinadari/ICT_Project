@@ -172,10 +172,97 @@ button{
 
 }
 
-.box input:focus,
-.box textarea:focus,
-.box input:valid,
-.box textarea:valid{
+.box1 input:focus,
+.box1 textarea:focus,
+.box1 input:valid,
+.box1 textarea:valid{
+    border-bottom: 2px solid navy;
+}
+
+/*Sign Up Form */
+.box2{
+    position:relative;
+	margin-top: 40px;
+	padding: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    background: #ffffff;
+    padding: 40px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+}
+.box2 h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: royalblue;
+    text-transform: uppercase;
+}
+
+.box2 input{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.box2 textarea{
+    height: 80px;
+    padding: 10px 0;
+
+}
+
+.box2 input,
+.box2 textarea{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: transparent;
+    border-bottom: 2px solid #999;
+}
+.box2 textarea{
+    margin-bottom: 20px;
+}
+.box2 input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: royalblue;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.box2 form div{
+    position: relative;
+
+}
+.box2 form div label{
+    position: absolute;
+    top:10px;
+    pointer-events: none;
+    left: 0;
+    color: #999;
+    transition: .5s;
+}
+
+.box2 input:focus ~label,
+.box2 textarea:focus ~label,
+.box2 input:valid ~label,
+.box2 textarea:valid ~label{
+    top: -12px;
+    left: 0;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.box2 input:focus,
+.box2 textarea:focus,
+.box2 input:valid,
+.box2 textarea:valid{
     border-bottom: 2px solid navy;
 }
 
