@@ -23,8 +23,6 @@ header
 	padding: 5px 100px;
 	background: #fff;
 	border-bottom: 1px solid(0,0,0,.1);
-
-
 }*/
 /*navigation bar*/
 header img{
@@ -68,7 +66,7 @@ header ul li:hover
 /*close of the header*/
 
  img{
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 50px;
    
  }
@@ -79,6 +77,8 @@ h1{
     font-family: 'Lucida Sans';
     color: #ffffff;
     font-size: 48px;}
+
+
 
 p{
     color: #ffffff;
@@ -352,6 +352,39 @@ button{
 .box textarea:valid{
     border-bottom: 2px solid navy;
 }
+
+/*Admin Sign In*/
+.box4{
+    text-align: justify;
+}
+
+
+.box4 h2{
+    margin-top: 75px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.box4 form {
+    text-align: center;
+    margin-block-end: auto;
+}
+
+.box4 form label{
+    color: #ffffff;
+    
+}
+
+.box4 input[type="text"]{
+    width: 300px;
+}
+
+.box4 input[type="password"]{
+    width: 300px;
+}
+
 footer{
     text-align: center;
     font-family: 'Lucida Sans';
