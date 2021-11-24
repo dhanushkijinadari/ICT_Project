@@ -411,6 +411,9 @@ body{
   align-items: center;
   
        }
+.navbar img {
+  margin-top: 50px;
+}
 
 .navbar a {
   float:right;
