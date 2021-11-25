@@ -408,7 +408,7 @@ body{
     font-family: sans-serif;
 }
 .box2 img{
- margin-top:1px;   
+ margin-top:0px;   
 }
 .box2{
     position:relative;
@@ -419,6 +419,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 800px;
+    height: 1500px;
     background: #ffffff;
     padding: 40px;
     border: 1px solid rgba(0,0,0,.1);
@@ -431,7 +432,11 @@ body{
     color: royalblue;
     text-transform: uppercase;
 }
-
+.box2 p{
+    font-size:15px;
+    color:black;
+}
+    
 .box2 input{
     padding: 10px 0;
     margin-bottom: 30px;
