@@ -342,7 +342,7 @@ body{
   padding: 3px 18px;
   color:#fff;
   position: fixed;
-  margin: 27px 25px;
+  margin: 16px 25px;
   text-decoration:none;
   font-size: 17px;
   position: relative;
@@ -415,7 +415,7 @@ body{
 }
 .box2 img{
     margin-top:0px; 
-    margin-bottom:10px
+    
 }
 .box2{
     position:relative;
