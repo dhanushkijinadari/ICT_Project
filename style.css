@@ -72,7 +72,7 @@ header ul li:hover
 /*close of the header*/
 
  img{
-    margin-top: 200px;
+    margin-top: 1px;
     margin-bottom: 50px;
    
  }
@@ -413,11 +413,12 @@ body{
     font-family: sans-serif;
 }
 .box2 img{
-    margin-top:0px;   
+    margin-top:0px; 
+    margin-bottom:200px
 }
 .box2{
     position:relative;
-    margin-top: 170px;
+    margin-top: 190px;
     padding: 250px;
     position: absolute;
     top: 50%;
@@ -444,12 +445,12 @@ body{
 }
     
 .box2 input{
-    padding: 10px 0;
-    margin-bottom: 30px;
+    padding: 8px 0;
+    margin-bottom: 20px;
 }
 
 .box2 textarea{
-    height: 80px;
+    height: 60px;
     padding: 10px 0;
 
 }
