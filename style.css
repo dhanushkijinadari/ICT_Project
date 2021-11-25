@@ -414,12 +414,11 @@ body{
     font-family: sans-serif;
 }
 .box2 img{
-    
-    margin-top:100px;
-    padding:50px;
+    margin-top:0px;
     margin-bottom:800px;
-    
-}
+    align:top;
+    }
+
 .box2{
     position:relative;
     margin-top: 190px;
