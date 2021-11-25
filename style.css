@@ -415,7 +415,7 @@ body{
 }
 .box2 img{
     margin-top:1px; 
-    margin-bottom:90%;
+    float:left;
     
 }
 .box2{
