@@ -415,8 +415,8 @@ body{
 }
 .box2 img{
     position: absolute;
-    top: 0px;
-    right: 0px;
+    margin-top:1px;
+    margin-bottom:800px;
     
 }
 .box2{
