@@ -28,7 +28,7 @@ header
 header img{
     height: 60px;
     width: 200px;
-    margin-top:2px;
+    margin-top:3px;
 }
 header ul
 {
@@ -183,8 +183,8 @@ button{
 /*add permission form */
 .box{
     position:relative;
-	margin-top: 80px;
-	padding: 250px;
+    margin-top: 80px;
+    padding: 250px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -412,8 +412,8 @@ body{
 }
 .box2{
     position:relative;
-	margin-top: 150px;
-	padding: 250px;
+    margin-top: 150px;
+    padding: 250px;
     position: absolute;
     top: 50%;
     left: 50%;
