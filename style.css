@@ -29,8 +29,8 @@ header img{
     height: 60px;
     width: 200px;
     margin-top:10px;
-    margin-left:5%;
-    
+    margin-left:0px;
+    margin-right:90%;
    
     
 	
@@ -73,7 +73,8 @@ header ul li:hover
 
  img{
     margin-top: 1px;
-    margin-left:5%;
+    margin-left:0px;
+    margin-right:90%;
    
  }
 
