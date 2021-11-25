@@ -414,8 +414,9 @@ body{
     font-family: sans-serif;
 }
 .box2 img{
-    margin-top:1px; 
-    float:left;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     
 }
 .box2{
