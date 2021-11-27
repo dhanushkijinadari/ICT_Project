@@ -521,3 +521,221 @@ body{
 .box2 textarea:valid{
     border-bottom: 2px solid navy;
 }
+
+/*DeleteUpdatePermission*/
+body{
+    background-color: rgb(0, 2, 22);
+    font-family: sans-serif;
+   }
+.navbar {
+  width:100%;
+  height:60px;
+  background-color: #111;
+  border-bottom: 1px solid(0,0,0,.1);
+  align-items: center;
+  
+       }
+.navbar img {
+  margin-top:1px;
+}
+
+.navbar a {
+  float:right;
+  text-align: center;
+  padding: 3px 18px;
+  color:#fff;
+  position: fixed;
+  margin: 16px 25px;
+  text-decoration:none;
+  font-size: 17px;
+  position: relative;
+  letter-spacing: 2px;
+  list-style: none;
+	
+
+   }
+
+.navbar a:hover {
+  background-color:#228b22;
+                }
+
+.contain {
+    position:relative;
+	margin-top: 70px;
+	padding: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    background: #ffffff;
+    padding: 50px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+}
+
+.contain h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: royalblue;
+    text-align:center;
+}
+.contain h4{
+    font-family:ariel;
+    font-size:16.8px;
+    text-align:center;
+}
+.contain input{
+    padding-left:50px;
+    height:28px;
+    margin-left:23%;
+   
+ 
+    
+}
+
+  
+
+
+.contain button {
+  background-color:royalblue ;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 160px;
+  cursor: pointer;
+  border-radius: 16px;
+  
+}
+
+/*DeleteUpdatePermissioConform*/
+
+body{
+    background-color: rgb(0, 2, 22);
+    font-family: sans-serif;
+   }
+.navbar {
+  width:100%;
+  height:60px;
+  background-color: #111;
+  border-bottom: 1px solid(0,0,0,.1);
+  align-items: center;
+  
+       }
+.navbar img {
+  margin-top:1px;
+}
+
+.navbar a {
+  float:right;
+  text-align: center;
+  padding: 3px 18px;
+  color:#fff;
+  position: fixed;
+  margin: 16px 25px;
+  text-decoration:none;
+  font-size: 17px;
+  position: relative;
+  letter-spacing: 2px;
+  list-style: none;
+	
+
+   }
+
+.navbar a:hover {
+  background-color:#228b22;
+                }
+.content {
+    position:relative;
+	margin-top: 50px;
+	padding: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    background: #ffffff;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-sizing: border-box;
+ }
+
+.content h3{
+    margin: 0 0 40px;
+    padding: 0;
+    color: royalblue;
+    
+}
+
+
+.content label {
+ font-family: Ariel;
+ font-size: 17px;
+ color:#333;
+ height: 15px;
+ width: 200px;
+ margin-top: 14px;
+ margin-left: 10px;
+ text-align: left;
+ clear: both;
+}
+.content input {
+ height: 22px;
+ width: 200px;
+ border: 1px solid #000;
+ margin-top: 1px;
+ float: right;
+ 
+}
+
+.content button{
+  background-color:royalblue ;
+  border: none;
+  color: #ffffff;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 35px;
+  cursor: pointer;
+  border-radius: 16px;
+  
+  
+}
+.content input:focus ~label,
+.content input:focus ~label,
+.content textarea:focus ~label,
+.content input:valid ~label,
+.content textarea:valid ~label{
+    top: -12px;
+    left: 0;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.content input:focus,
+.content textarea:focus,
+.content input:valid,
+.content textarea:valid{
+    border-bottom: 2px solid navy;
+}
+.content input:focus ~label,
+.content textarea:focus ~label,
+.content input:valid ~label,
+.content textarea:valid ~label{
+    top: -12px;
+    left: 0;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
