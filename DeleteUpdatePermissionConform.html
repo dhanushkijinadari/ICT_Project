@@ -23,27 +23,27 @@
   <form id= "form">
    <div class="row"> 
      <label>Vehicle Number </label> 
-     <input type="text" name="" required="" id="vnum"><br><br>
+     <input type="text" name="" required="" id="vehiclNo"><br><br>
    </div>
 
    <div class="raw">
       <label>Company Name </label>
-      <input type="text"  name="" required="" id="comname"><br><br>
+      <input type="text"  name="" required="" id="companyName"><br><br>
    </div>
 
    <div class="raw">
       <label>Driver's Name </label>
-      <input type="text"  name=""  required="" id="driname"><br><br>
+      <input type="text"  name=""  required="" id="driName"><br><br>
    </div>
 
    <div class="raw">
       <label>Travel Purpose </label>
-      <input type="text"  name="" required="" id="trapur"><br><br>
+      <input type="text"  name="" required="" id="TraPur"><br><br>
    </div>
 
    <div class="raw">
       <label >Route </label>
-      <input type="text"  name="" required="" id="rou">
+      <input type="text"  name="" required="" id="route">
    </div>
         <br><br><br>
   
@@ -65,13 +65,13 @@
         <script src="valid.js"></script>
         <script>
             $("#submit").click(function(){
-                var vnum = $("#vnum").val();
-                var comname = $("#comname").val();
-                var driname = $("#driname").val();
-                var rou = $("#rou").val();
-                var trapur = $("#trapur").val();
+                var vehicleNo = $("#vehicleNo").val();
+                var companyName = $("#companyName").val();
+                var driName = $("#driName").val();
+                var route = $("#route").val();
+                var TraPur = $("#TraPur").val();
 
-                if (vnum == '' || comname == '' || driname=='' || rou=='' || trapur==''){
+                if (vehicleNo == '' || companyName == '' || driName=='' || route=='' || TraPur==''){
                     swal({
                         title: "Fields empty!",
                         text: "Please check fields!",
@@ -91,13 +91,13 @@
 
         <script>
             $("#submit1").click(function(){
-                var vnum = $("#vnum").val();
-                var comname = $("#comname").val();
-                var driname = $("#driname").val();
-                var rou = $("#rou").val();
-                var trapur = $("#trapur").val();
+                var vehicleNo = $("#vehicleNo").val();
+                var companyName = $("#companyName").val();
+                var driName = $("#driName").val();
+                var route = $("#route").val();
+                var TraPur = $("#TraPur").val();
 
-                if (vnum == '' || comname == '' || driname=='' || rou=='' || trapur==''){
+                if (vehicleNo == '' || companyName == '' || driName=='' || route=='' || TraPur==''){
                     swal({
                         title: "Fields empty!",
                         text: "Please check fields!",
